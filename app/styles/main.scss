@@ -154,10 +154,16 @@ h1 {
 /*Styles for Main Div Globally*/
 .container-fluid {
   padding-top: 20px;
-  border-bottom: 3px solid #33302D;
+  border-bottom: 4px solid #33302D;
   padding-bottom: 50px;
 }
 
+blockquote {
+  padding: 10px 15px;
+  margin: 0 0 20px;
+  font-size: 16px;
+  border-left: 4px solid #33302D;
+}
 /*Custom Narative Page Styles*/
 #homepage {
 
@@ -198,7 +204,7 @@ h1 {
   }
 
   p a:hover {
-    color: #FF476C;
+    color: #D4A6FF;
   }
 
 } /*end of homepage styles*/
