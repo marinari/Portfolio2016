@@ -260,6 +260,7 @@ module.exports = function (grunt) {
       options: {
         assetsDirs: [
           '<%= config.dist %>',
+          '<%= config.dist %>/images',
           '<%= config.dist %>/styles'
         ]
       },
@@ -283,7 +284,7 @@ module.exports = function (grunt) {
         }]
       }
     },
-    
+
     svgmin: {
       dist: {
         files: [{
@@ -397,6 +398,7 @@ module.exports = function (grunt) {
       dist: [
         'babel',
         'sass',
+        'imagemin',
         'svgmin'
       ]
     }
