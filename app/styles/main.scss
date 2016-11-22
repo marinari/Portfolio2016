@@ -9,7 +9,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 .browsehappy {
   margin: 0.2em 0;
-  background: #D4D4CF;
+  background: #F7E9D9;
   color: #000;
   padding: 0.2em 0;
 }
@@ -17,6 +17,16 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 /* Reset boostrap styles */
 body {
   padding: 0px;
+}
+
+.navbar-default {
+  background-color: #F7E9D9;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+
 }
 
 .container-fluid {
@@ -46,17 +56,28 @@ h1 {
   z-index: 10000;
   position: fixed;
   top: 0px;
-  background-color: black;
+  background-color: #F7E9D9;
+  padding-top: 5px;
+  font-size: medium;
+  text-align: center;
+  height: 50px;
 
-  li {
-    font-size: medium;
-
-    a {
-      color: #F7E9D9; /*global text color for nav links*/
-    }
-
+  li a {
+    color: #33302D; /*global text color for nav links*/
   }
+
+  li a:hover {
+    background-color: #8658CC;
+    color: #F7E9D9;
+  }
+  
 } /*end of nav styles*/
+
+.logo {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+}
 
 section {
   display: block;
@@ -150,27 +171,6 @@ blockquote {
     border-radius: 4px;
   }
 
-    .logotype {
-      border-bottom: 1px solid #FF3752;
-    }
-
-    .nav-tabs {
-      border-bottom: 1px solid #FF3752;
-
-      li a:hover {
-        background-color: #FF3752;
-        border: 1px solid #FF3752;
-      }
-  }
-
-  .nav .active {
-    a {
-    background-color: #DB2F46;
-    border: 2px solid #FF3752;
-    color: #F7E9D9;
-    border-bottom: transparent;
-  }
-}
   p a {
     color: #F7E9D9;
     text-decoration: underline;
@@ -187,26 +187,6 @@ blockquote {
   background-color: #1E97C9;
   color: #F7E9D9;
 
-  .logotype {
-    border-bottom: 1px solid #26C0FF;
-  }
-    .nav-tabs {
-      border-bottom: 1px solid #26C0FF;
-
-      li a:hover {
-        background-color: #26C0FF;
-        border: 1px solid #26C0FF;
-      }
-  }
-
-  .nav .active {
-    a {
-    background-color: #1E97C9;
-    border: 2px solid #26C0FF;
-    color: #F7E9D9;
-    border-bottom: transparent;
-  }
-}
 
   .thumbnail .btn-default { /*project page thumbnail button styles*/
       background-color: #1E97C9;
@@ -227,26 +207,6 @@ blockquote {
   background-color: #F0A320;
   color: #F7E9D9;
 
-  .logotype {
-    border-bottom: 1px solid #FFBB22;
-  }
-
-    .nav-tabs {
-      border-bottom: 1px solid #FFBE22;
-
-      li a:hover {
-        background-color: #FFBE22;
-        border: 1px solid #FFBB22;
-      }
-  }
-  .nav .active {
-    a {
-    background-color: #F0A320;
-    border: 2px solid #FFBB22;
-    color: #F7E9D9;
-    border-bottom: transparent;
-  }
-}
   span { /*center icons on top of skills paragraphs*/
     margin: auto;
     display: table;
@@ -289,28 +249,6 @@ blockquote {
 
   background-color: #079972;
   color: #F7E9D9;
-
-  .logotype {
-    border-bottom: 1px solid #0ACF9A;
-  }
-
-    .nav-tabs {
-      border-bottom: 1px solid #0ACF9A;
-
-      li a:hover {
-        background-color: #0ACF9A;
-        border: 1px solid #0ACF9A;
-      }
-  }
-
-  .nav .active {
-    a {
-    background-color: #079972;
-    border: 2px solid #0ACF9A;
-    color: #F7E9D9;
-    border-bottom: transparent;
-    }
-  }
 
   .courtitl {
     background-color: rgba(10,207,154,0.5);
