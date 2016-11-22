@@ -38,7 +38,7 @@ h1 {
   padding-bottom: 20px;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:visited {
   background-color: #AD9E87;
   color: #F7E9D9;
   border-color: #CCBA9F;
@@ -46,11 +46,12 @@ h1 {
 
 .btn-primary:hover {
   background-color: #8658CC;
-  color: #D4A6FF;
+  color: #C49EFF;
   border-color: #9562E3;
 }
 
-.btn-default { /*social link footer buttons*/
+
+.btn-default, .btn-default:visited { /*social link footer buttons*/
   background-color: #AD9E87;
   color: #F7E9D9;
   border-color: #CCBA9F;
@@ -58,9 +59,11 @@ h1 {
 
 .btn-default:hover {
   background-color: #8658CC;
-  color: #D4A6FF;
+  color: #C49EFF;
   border-color: #9562E3;
 }
+
+
 
 /* Custom page header */
 .header {
@@ -132,7 +135,7 @@ h1 {
 /* Homepage Hero and Download Button*/
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  /*border-bottom: 1px solid #e5e5e5;*/
   background: url('/images/hero1.jpg') no-repeat center center;
   background-size: cover;
   color: #DB2F46;
@@ -140,6 +143,9 @@ h1 {
   .btn {
     font-size: 21px;
     padding: 14px 24px;
+  }
+  h1 {
+    -webkit-text-stroke: 0.5px #F7E9D9;
   }
 }
 
@@ -204,7 +210,7 @@ blockquote {
   }
 
   p a:hover {
-    color: #D4A6FF;
+    color: #C49EFF;
   }
 
 } /*end of homepage styles*/
@@ -368,15 +374,19 @@ div .thumbnail {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 768px;
   }
 
   /* Remove the padding we set earlier */
   .header,
   .marketing,
-  .footer {
+    {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .footer {
+    text-align: center;
   }
 
   /* Space out the masthead */
