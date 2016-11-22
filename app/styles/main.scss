@@ -133,9 +133,10 @@ h1 {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  background-image:url('/images/jumb-bg1.png');
+  background: url('/images/hero1.jpg') no-repeat center center;
+  background-size: cover;
   color: #DB2F46;
-  display: block;
+  height: 100%;
   .btn {
     font-size: 21px;
     padding: 14px 24px;
@@ -163,6 +164,13 @@ h1 {
   background-color: #DB2F46;
   color: #F7E9D9;
 
+  .lead {
+    font-size: 20px;
+    background-color: rgba(247,233,217,0.8);
+    padding: 6px;
+    border-radius: 4px;
+  }
+
     .logotype {
       border-bottom: 1px solid #FF3752;
     }
@@ -184,7 +192,14 @@ h1 {
     border-bottom: transparent;
   }
 }
+  p a {
+    color: #F7E9D9;
+    text-decoration: underline;
+  }
 
+  p a:hover {
+    color: #FF476C;
+  }
 
 } /*end of homepage styles*/
 
@@ -254,7 +269,7 @@ h1 {
     border-bottom: transparent;
   }
 }
-  span {
+  span { /*center icons on top of skills paragraphs*/
     margin: auto;
     display: table;
   }
@@ -343,9 +358,6 @@ div .thumbnail {
     color: #F7E9D9;
   }
 }
-
-
-
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
