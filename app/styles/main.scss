@@ -81,7 +81,7 @@ h1 {
 
 section {
   display: block;
-  padding-bottom: 380px;
+  padding-bottom: 280px;
   padding-top: 40px;
   border-bottom: 4px solid #33302D;
   padding-left: 25px;
@@ -144,7 +144,7 @@ blockquote {
 }
 
 /*Custom Narative Page Styles*/
-#abtsect {
+#skillsect {
 
   background-color: #DB2F46;
   color: #F7E9D9;
@@ -170,42 +170,6 @@ blockquote {
     padding: 6px;
     border-radius: 4px;
   }
-
-  p a {
-    color: #F7E9D9;
-    text-decoration: underline;
-  }
-
-  p a:hover {
-    color: #C49EFF;
-  }
-
-} /*end of homepage styles*/
-
-#projsect {
-
-  background-color: #1E97C9;
-  color: #F7E9D9;
-
-
-  .thumbnail .btn-default { /*project page thumbnail button styles*/
-      background-color: #1E97C9;
-      color: #F7E9D9;
-      border-color: #F7E9D9;
-    }
-
-  .thumbnail .btn-default:hover {
-    background-color: #F7E9D9;
-    border-color: #F7E9D9;
-    color: #1E97C9;
-  }
-
-} /*end of project page styles*/
-
-#skillsect {
-
-  background-color: #F0A320;
-  color: #F7E9D9;
 
   span { /*center icons on top of skills paragraphs*/
     margin: auto;
@@ -241,6 +205,45 @@ blockquote {
     color: #8658CC;
     }
   }
+
+
+} /*end of homepage styles*/
+
+#projsect {
+
+  background-color: #1E97C9;
+  color: #F7E9D9;
+
+
+  .thumbnail .btn-default { /*project page thumbnail button styles*/
+      background-color: #1E97C9;
+      color: #F7E9D9;
+      border-color: #F7E9D9;
+    }
+
+  .thumbnail .btn-default:hover {
+    background-color: #F7E9D9;
+    border-color: #F7E9D9;
+    color: #1E97C9;
+  }
+
+} /*end of project page styles*/
+
+#abtsect {
+
+  background-color: #F0A320;
+  color: #F7E9D9;
+
+  p a {
+    color: #F7E9D9;
+    text-decoration: underline;
+  }
+
+  p a:hover {
+    color: #C49EFF;
+  }
+
+
 
 
 } /*end of skill page styles*/
