@@ -9,7 +9,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 .browsehappy {
   margin: 0.2em 0;
-  background: #F7E9D9;
+  background: #AD9E87;
   color: #000;
   padding: 0.2em 0;
 }
@@ -17,16 +17,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 /* Reset boostrap styles */
 body {
   padding: 0px;
-}
-
-.navbar-default {
-  background-color: #F7E9D9;
-}
-
-.navbar {
-  margin-bottom: 0px;
-  padding-bottom: 10px;
-
+  padding-top: 50px; /* for fixed navbar*/
+  background-color: #AD9E87;
 }
 
 .container-fluid {
@@ -38,9 +30,28 @@ body {
 .header,
 .marketing,
 .footer {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+.navbar {
+  background-color: #33302D;
+}
+.navbar-default {
+  border-color: #AD9E87;
+
+  .navbar-nav{
+    padding-left: 70px;
+  }
+  .navbar-nav > li > a {
+    color: #AD9E87;
+    font-size: 16px;
+  }
+  .navbar-nav li a:hover {
+    background-color: #5bc0de;
+  }
+}
+
 /* change default bootstrap styles for headings*/
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
@@ -48,36 +59,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 section h1 {
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   color: #AD9E87;
 }
 .jumbotron h1 {
   text-align: center;
 }
 
-.nav-bar {
-  display: none;
-} /*end of nav styles*/
-
-.nav {margin-left: 0px;
-z-index: 10000;
-position: fixed;
-top: 0px;
-background-color: #33302D;
-padding-top: 5px;
-font-size: medium;
-text-align: center;
-height: 50px;
-border-bottom: 1px solid #F7E9D9;
-
-li a {
-  color: #F7E9D9; /*global text color for nav links*/
-}
-
-li a:hover {
-  color: #5bc0de;
-  }
-}
 .logo {
   padding-left: 25px;
   padding-right: 25px;
@@ -87,7 +75,7 @@ li a:hover {
 section {
   display: block;
   padding-bottom: 260px;
-  padding-top: 60px;
+  padding-top: 50px;
   border-bottom: 4px solid #AD9E87;
   padding-left: 25px;
   padding-right: 25px;
@@ -146,6 +134,7 @@ section {
 
   background-color: #DB2F46;
   color: #F7E9D9;
+  padding-top: 60px;
 
   /* Homepage Hero and Download Button*/
   .jumbotron {

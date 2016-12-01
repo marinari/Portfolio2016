@@ -1,13 +1,15 @@
 <!doctype html>
-<html class="no-js" lang="eng">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Arianna Marin | Front End Web Developer</title>
-    <meta name="description" content="Digital Portfolio to showcase work of Arianna Marin, front end web developer. Website also includes a related biography of Arianna, her relevant coursework, skills, and contact information.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="Digital Portfolio to showcase work of Arianna Marin, front end web developer. Website also includes a related biography of Arianna, her relevant coursework, skills, and contact information.">
+    <title>Arianna Marin Web Development Portfolio</title>
 
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="images/logo-sm.png">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css(.) styles/vendor.css -->
@@ -24,59 +26,47 @@
     <!--Font Awesome CDN-->
     <script src="https://use.fontawesome.com/87df76a06b.js"></script>
   </head>
+
   <body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><img alt="Brand" src="images/logo-sm.png" class="logo"></li>
-            <li><a href="#skillsect">Skills</a></li>
-            <li><a href="#projsect">Projects</a></li>
-            <li><a href="#cowktsect">Coursework</a></li>
-            <li><a href="#abtsect">About</a></li>
-            <li><a href="#footer">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-</nav>
-
-      <!-- <navbar navbar-default navbar-fixed-top>
-        <div class="logo">
-          <img src="images/logo-sm.png" alt="Graphic Letter A used as logo for website and personal brand of Arianna Marin">
-        </div>
-
-        <ul class="nav navbar">
-          <li class="nav-item active"><a class="nav-link" href="#abtsect">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projsect">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skillsect">Skills</a></li>
-          <li class="nav-item"><a class= "nav-link" href="#cowksect">Coursework</a></li>
+    <!-- Navbar fixed top -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+        <img alt="Brand" src="images/logo-sm.png">
+      </div><!--end of navbar header-->
+      <div class="navbar-collapse collapse">
+        <!-- Right nav -->
+        <ul class="nav navbar-nav">
+          <li><a href="#skillsect">Skills</a></li>
+          <li><a href="#projsect">Projects</a></li>
+          <li><a href="#cowksect">Coursework</a></li>
+          <li><a href="#abtsect">About</a></li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
 
-      </navbar>end of header -->
+      </div><!--/.nav-collapse -->
+    </div><!--/.container -->
+  </div>
 
   <div class="container-fluid">
       <section id="skillsect">
-
           <div class="jumbotron">
             <h1>Welcome!</h1>
             <p class="lead">My name is Arianna, I am a front end web developer and design technologist based in Atlanta, GA and remotely.</p>
-            <a class="btn btn-info" href="#abtsect" role="button">Learn More</span></a>
-            <a class="btn btn-info bt-lg" href="https://drive.google.com/file/d/0ByyLxjNZYZ7jRkZnVC1kV05zT3M/view?usp=sharing" role="button" target="_blank">Download Resume <span class="glyphicon glyphicon-download-alt"></span></a>
+            <a class="btn btn-info btn-lg" href="#abtsect" role="button">Learn More</span></a>
+            <a class="btn btn-info btn-lg" href="https://drive.google.com/file/d/0ByyLxjNZYZ7jRkZnVC1kV05zT3M/view?usp=sharing" role="button" target="_blank">Download Resume <span class="glyphicon glyphicon-download-alt"></span></a>
           </div><!--end of jumbotron-->
 
           <div class="row">
@@ -252,9 +242,9 @@
   </section><!--end of coursework section-->
 
     <section id="abtsect">
-      <div class="row marketing">
+      <h1>About</h1>
+      <div class="row">
           <div class="col-sm-4">
-            <h2>Narrative</h2>
             <p>Since I can remember, I have been a curious and inqusitive person. It wasn't until I attended a web development info session that I realized it was the perfect career choice for me in which I could build, create, and continue to learn and improve everyday. The web industry is dynamic and ever-changing. I would like to tell my journey in this narrative section in order to illustrate how my path has lead me to become a developer.</p>
             <p>My first memory of interacting with technology in a curious way was around the age of 11. My brother Andre and I would meticulously take apart his <a href="https://en.wikipedia.org/wiki/Xbox" alt="link to Wikipedia article of XBOX gaming console">XBOX</a>, put it back together, cross our fingers and see if it worked. We never broke it, and to this day I remmeber the sense of accomplishment I felt every time the green light came back on after our explorations. I have continued to enjoy taking things apart in order to decipher how something is pieced together to make it function. I am usually the person tasked with troubleshooting family memeber's broken tech. I believe this is because I am not easily frustrated or discouraged.</p>
           </div>
@@ -265,18 +255,14 @@
           </div>
 
           <div class="col-sm-4">
-            <h2>Objective</h2>
+            <h3>Objective</h3>
             <p>To utilize my skills, enthusiasm, and background to contribute to a team as a front end web developer or design technologist. To face challenges and obstacles head-on and with genuine interest, while continuing to learn and grow. I am exceptionally creative because of my time at SCAD, and natural interests in photography and design. I am a highly detailed person, I pride myself on doing great work, and I have experience working efficiently as part of a team.</p>
             <p><blockquote>Thank you for taking the time to learn more about me. Feel free to reach out if you have further questions, or require supplemental information. References available upon request.</blockquote></p>
           </div>
-
         </div><!--end of row-->
-
   </section><!--end of about section-->
 
-</div><!--end of entire page container-->
-
-
+</div><!--end of page container-->
 
     <div class="footer container">
       <div id=footer class="row">
@@ -313,9 +299,6 @@
 
       </div> <!--row end tag-->
     </div> <!--footer end tag-->
-
-
-
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
