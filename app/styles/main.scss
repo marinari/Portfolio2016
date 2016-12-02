@@ -9,7 +9,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 .browsehappy {
   margin: 0.2em 0;
-  background: #AD9E87;
+  background: #33302D;
   color: #000;
   padding: 0.2em 0;
 }
@@ -18,7 +18,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 body {
   padding: 0px;
   padding-top: 50px; /* for fixed navbar*/
-  background-color: #AD9E87;
+  background-color: #33302D;
 }
 
 .container-fluid {
@@ -32,6 +32,10 @@ body {
 .footer {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+img {
+  padding-top: 10px; /*thumbnail images and logo pic in nav bar*/
 }
 
 .navbar {
@@ -243,7 +247,7 @@ section {
 } /*end of work page styles*/
 
 #abtsect {
-  background-color: #F0A320;
+  background-color: #1E97C9;
   color: #F7E9D9;
 
   p a {
